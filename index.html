@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inspiration och Inredning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Inspiration & Inredning</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Hem</a></li>
+                <li><a href="#about">Om Oss</a></li>
+                <li><a href="#articles">Artiklar</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Välkommen till Inspiration & Inredning</h2>
+        <p>Här hittar du allt från renoveringstips, inredningsidéer och DIY-projekt till hur du maximerar små utrymmen. Vi vill hjälpa dig skapa ett hem du älskar!</p>
+    </section>
+
+    <section id="articles">
+        <h2>Senaste Artiklarna</h2>
+        <div class="article-list">
+            <article>
+                <h3>Renovering på Budget</h3>
+                <p>Renovera ditt hem utan att spräcka budgeten! Vi ger dig våra bästa tips för att få ett uppdaterat och fräscht hem utan att behöva tömma plånboken.</p>
+                <button onclick="readMore('article1')">Läs mer</button>
+                <div id="article1" class="more-text">
+                    <p>Här hittar du praktiska råd om hur du kan använda återvunnet material, planera smart och hålla koll på kostnaderna när du renoverar.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>Maximera Små Utrymmen</h3>
+                <p>Smarta lösningar för små lägenheter och compact living. Få ut det mesta av ditt hem, oavsett storlek.</p>
+                <button onclick="readMore('article2')">Läs mer</button>
+                <div id="article2" class="more-text">
+                    <p>Vi visar hur du kan använda multifunktionella möbler, speglar och ljus för att få små utrymmen att kännas större och mer funktionella.</p>
+                </div>
+            </article>
+
+            <article>
+                <h3>DIY Inredning: Skapa ditt Drömhem</h3>
+                <p>Gör-det-själv projekt som inte bara är roliga, men också ger ditt hem en unik och personlig touch.</p>
+                <button onclick="readMore('article3')">Läs mer</button>
+                <div id="article3" class="more-text">
+                    <p>Från hemmagjorda möbler till egen konst - här hittar du allt för att skapa ditt drömhem på egen hand!</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Om Oss</h2>
+        <p>Vi är ett gäng passionerade inredningsälskare med målet att hjälpa dig skapa ett hem där du känner dig inspirerad och avslappnad. Kvalitet, hjärta och hjälpsamhet är våra ledord.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakta Oss</h2>
+        <p>Har du några frågor eller vill dela med dig av dina egna projekt? Tveka inte att höra av dig till oss på info@inspirationinredning.se.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Inspiration & Inredning. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
